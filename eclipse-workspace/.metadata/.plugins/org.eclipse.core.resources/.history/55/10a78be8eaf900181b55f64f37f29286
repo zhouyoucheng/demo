@@ -1,0 +1,21 @@
+package com.teud.fallback;
+
+import org.springframework.cloud.netflix.zuul.filters.route.ZuulFallbackProvider;
+import org.springframework.http.client.ClientHttpResponse;
+import org.springframework.stereotype.Component;
+
+@Component
+public class HelloFallback implements ZuulFallbackProvider {
+	
+	@Override
+	public ClientHttpResponse fallbackResponse() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getRoute() {
+		return "provider-user";
+	}
+
+}

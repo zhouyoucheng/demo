@@ -1,0 +1,5 @@
+package com.teud.fallback;
+
+public class HelloFallback {
+
+}

@@ -1,0 +1,8 @@
+package eurekaService;
+
+public class RunAppEuraka {
+	
+	public static void main(String[] args) {
+		
+	}
+}
